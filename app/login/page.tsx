@@ -33,7 +33,7 @@ export default function LoginPage() {
       <form onSubmit={handleSubmit} className="p-8 bg-gray-800 rounded-lg shadow-md w-96">
         <h1 className="text-2xl font-bold mb-6 text-center">Connexion à Suffler</h1>
         
-        {error && <div className="mb-4 p-2 bg-red-600 text-sm rounded text-center">{error}</div>}
+        {error && <div className="mb-4 p-2 bg-red-600 text-sm rounded text-center">vous n&apos;êtes pas enregistré(e)</div>}
 
         <label className="block text-sm mb-2">Entrez votre Pseudo :</label>
         <input
